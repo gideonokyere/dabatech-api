@@ -5,7 +5,7 @@
   "main": "jest.config.js",
   "scripts": {
     "build": "tsc",
-    "start": "node prod/index.js",
+    "start": "node ./prod/index.js",
     "postinstall": "tsc",
     "dev": "ts-node & nodemon ./src/index.ts",
     "test": "jest"
