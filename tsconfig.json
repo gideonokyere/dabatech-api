@@ -1,6 +1,7 @@
 {
     "compilerOptions": {
         "module":"commonjs",
+        "lib": ["es2018", "esnext.asynciterable"],
         "esModuleInterop": true,
         "target": "es2018",
         "noImplicitAny": true,
